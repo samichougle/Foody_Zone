@@ -1,0 +1,54 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Logs & debug
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Build output
+build/
+dist/
+dist-ssr/
+.nyc_output/
+coverage/
+lib-cov/
+release/
+# Compiled binary addons
+build/Release
+*.tgz
+
+# Editor directories and files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS-specific
+*.swp
+Thumbs.db
+
+# Test snapshots
+template/src/__tests__/__snapshots__/
+
+# npm cache
+.npm/
+.yarn-integrity
+.yarn-cache/
+package-lock.json
+yarn.lock
